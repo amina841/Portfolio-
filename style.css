@@ -310,7 +310,7 @@ body {
 }
 
 .skills-column {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgb(61, 59, 59);
     padding: 30px;
     border-radius: 15px;
     box-shadow: var(--box-shadow);
