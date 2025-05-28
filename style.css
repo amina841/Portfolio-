@@ -386,7 +386,7 @@ body {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    color: #3d1e17;
+    color: #f0e4e2;
 }
 
 .contact-form.visible, .contact-info.visible {
