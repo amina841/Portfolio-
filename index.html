@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Amina's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <!-- Laptop Animation Background -->
+<div class="video-background">
+    <div class="laptop-container">
+        <div class="laptop">
+            <div class="laptop-screen">
+                <div class="screen-content"></div>
+                <div class="screen-overlay"></div>
+                <div class="code-lines" id="codeLines"></div>
+            </div>
+        </div>
+        <div class="laptop-base"></div>
+        <div class="laptop-stand"></div>
+    </div>
+    <div class="video-overlay"></div>
+</div>
+    <!-- Animated Background Canvas -->
+    <canvas id="bgCanvas"></canvas>
+    
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" class="logo-svg">
+                    <circle cx="20" cy="20" r="18" fill="none" stroke="#6d1a06" stroke-width="2"/>
+                    <path d="M10,20 Q20,5 30,20 T50,20" stroke="#bd8d46" stroke-width="2" fill="none"/>
+                    <text x="20" y="25" text-anchor="middle" font-size="12" fill="#6d1a06" font-weight="bold">A</text>
+                </svg>
+                Amina<span>.</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html"><i class="fas fa-user"></i> About</a>
+                <a href="skills.html"><i class="fas fa-code"></i> Skills</a>
+                <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section class="home section">
+            <div class="container">
+                <div class="home-content">
+                    <div class="text-1">Hello, I'm</div>
+                    <div class="text-2">Amina Muhamed</div>
+                    <div class="text-3">And I'm a <span class="typing"></span></div>
+                    <p class="description">Web designer & frontend developer creating beautiful, functional websites with modern technologies.</p>
+                    <div class="social-links">
+                        <a href="https://tiktok.com/@amiy_valerie" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://instagram.com/amiy_valerie" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@binary-brainss" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/amina-muhamed-900b82366" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/amina841" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="contact.html" class="btn">Contact Me</a>
+                    
+                    <!-- SVG Animation -->
+                    <div class="svg-animation">
+                        <svg width="100%" height="100" viewBox="0 0 500 100" preserveAspectRatio="none">
+                            <path id="wave" fill="rgba(109, 26, 6, 0.1)" d="M0,0 L0,50 C150,100 350,0 500,50 L500,0 Z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="image-container">
+                        <img src="profileimage.png" alt="Amina's Profile" id="profile-img">
+                        <canvas id="profileCanvas" class="profile-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Amina's Portfolio | About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <!-- Animated Background Canvas -->
+    <canvas id="bgCanvas"></canvas>
+    
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" class="logo-svg">
+                    <circle cx="20" cy="20" r="18" fill="none" stroke="#6d1a06" stroke-width="2"/>
+                    <path d="M10,20 Q20,5 30,20 T50,20" stroke="#bd8d46" stroke-width="2" fill="none"/>
+                    <text x="20" y="25" text-anchor="middle" font-size="12" fill="#6d1a06" font-weight="bold">A</text>
+                </svg>
+                Amina<span>.</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navbar">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="active"><i class="fas fa-user"></i> About</a>
+                <a href="skills.html"><i class="fas fa-code"></i> Skills</a>
+                <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section class="section about">
+            <div class="container">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Who I Am</h3>
+                        <p>I'm Amina Muhamed, a computer science student in University of Gondar and i finished my secondary school at King's Academy. and also i'am designer based in Ethiopia.  I create digital experiences that are both beautiful and functional.</p>
+                        <p>My journey in web development began 1 years ago. I believe in continuous learning and staying updated with the latest technologies.</p>
+                        
+                        <div class="about-info">
+                            <div class="info-item">
+                                <span><i class="fas fa-user"></i> Name:</span>
+                                <p>Amina Muhamed</p>
+                            </div>
+                            <div class="info-item">
+                                <span><i class="fas fa-envelope"></i> Email:</span>
+                                <p>amuhamedamina323@gmail.com</p>
+                            </div>
+                            <div class="info-item">
+                                <span><i class="fas fa-phone"></i> Phone:</span>
+                                <p>+251 980 522 226</p>
+                            </div>
+                            <div class="info-item">
+                                <span><i class="fas fa-map-marker-alt"></i> Location:</span>
+                                <p>Ethiopia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://tiktok.com/@amiy_valerie" target="_blank"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://instagram.com/amiy_valerie" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://youtube.com/@binary-brainss" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/in/amina-muhamed-900b82366" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/amina841" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        
+                        <a href="assets/resume.pdf" class="btn" download>Download CV</a>
+                    </div>
+                    <div class="about-img">
+                        <img src="assets/about.jpg" alt="">
+                        <canvas id="aboutCanvas" class="about-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
