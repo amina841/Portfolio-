@@ -368,6 +368,9 @@ body {
 .contact-main h1 span {
     color: var(--accent-color);
 }
+.container{
+    color: #c3cfe2;
+}
 
 .contact-container {
     display: flex;
@@ -378,7 +381,7 @@ body {
 .contact-form, .contact-info {
     flex: 1;
     min-width: 300px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgb(61, 59, 59);
     padding: 30px;
     border-radius: 15px;
     box-shadow: var(--box-shadow);
