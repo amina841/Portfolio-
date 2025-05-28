@@ -368,14 +368,15 @@ body {
 .contact-main h1 span {
     color: var(--accent-color);
 }
-.container{
-    color: #cac842;
-}
+
 
 .contact-container {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+}
+.container{
+    color: #cac842;
 }
 
 .contact-form, .contact-info {
